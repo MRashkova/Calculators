@@ -1,0 +1,76 @@
+.h2 {
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+}
+
+.par {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.lableM {
+    font-family: 'Nunito', sans-serif;      
+    color: black;      
+}
+
+.inputField {           
+    margin: 10px auto;
+    padding: 4px;
+    text-align:center;
+    float: right;
+    clear: both;
+}
+
+.inputField2 {
+    margin: 10px auto;
+    padding: 4px;
+    text-align:center;
+    position: center;
+   
+    
+}
+
+.containerM {
+    max-width: 600px;
+    
+    letter-spacing: 0.1em;            
+}     
+
+.output {           
+    letter-spacing: 0.1em;      
+}
+
+.submitM {
+    text-align: justify;
+}
+
+.btn-orangeM {
+    color: #fff;
+    background-color: #f58025;
+    border-color: #f58025;
+    cursor: pointer;
+}    
+
+.btn-lgM {
+    padding: .5rem 2rem;
+    font-size: 1.75rem;
+    line-height: 2.0;
+    border-radius: .7rem;
+}
+
+.tdStyle {
+    text-align: right;
+}
+
+.d-visibility {
+    visibility: hidden;
+}
+
+.form-group2 {
+    border: 0px;
+}
+
+.tableStyle {
+    border: 0px;
+    width: 100%;
+}

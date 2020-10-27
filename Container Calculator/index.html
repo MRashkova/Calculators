@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Container calculator</title>
+</head>
+
+<link rel="stylesheet" href="index.css">
+
+<body>
+    
+    <div class="fixed-bg"></div>
+    <div class="styling">
+        <br><hr><br>
+        <p class="par">Enter Cubic Meter (m&sup3;) value: </p>
+        <input class="enterNum" id="input" placeholder="Please enter a positive number." onkeyup="calculate2()">
+        <br><br>
+        <button id="buttonM" class="calc" onclick="calculate2()" >Calculate</button>
+        <br><br>
+        <p id="result"></p>
+        <p id="outputOver"></p>
+        <br>
+        <div class="imagesInline">
+            <div class="column">
+                <div class="opacity">
+                <img src="https://derickl1yuax.cloudfront.net/uploads/b96411da/ckeditor_assets/attachments/5/container-147973_960_720.png" width="50%" height="auto" id="firstImg">
+                </div>
+                
+                <br><br>
+                <p class="par">20ft</p>
+                <br>
+                    <div id="message1"></div>
+            </div>
+            <div class="column">
+                <div class="opacity">
+                <img src="https://derickl1yuax.cloudfront.net/uploads/b96411da/ckeditor_assets/attachments/5/container-147973_960_720.png" width="50%" height="auto" id="secondImg">
+            </div>
+            
+                <br><br>
+                <p class="par">40ft</p>
+                <br>
+                    <div id="message2"></div>
+            </div>
+            <div class="column">
+                <div class="opacity">
+                <img src="https://derickl1yuax.cloudfront.net/uploads/b96411da/ckeditor_assets/attachments/5/container-147973_960_720.png" width="50%" height="auto" id="thirdImg">
+            </div>
+           
+                <br><br>
+                <p class="par">40ft HQ</p>
+                <br>
+                    <div id="message3"></div>
+            </div>
+        </div>        
+    </div> 
+    <br><br>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
